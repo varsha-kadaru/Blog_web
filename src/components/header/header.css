@@ -1,0 +1,23 @@
+.headerImg{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.headerTitles{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.headerTitleSmall{
+    position: absolute;
+    top:18%;
+    font-size: 20px;
+}
+.headerTitleBig{
+    font-style: italic;
+    position: absolute;
+    top:20%;
+    font-size: 100px;
+}
